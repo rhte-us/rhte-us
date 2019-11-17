@@ -1,0 +1,28 @@
+---
+project:
+  root: "file:///home/lab-user/fruit-backend-sb/"
+  dekorateInputDir: null
+  dekorateOutputDir: "META-INF/dekorate"
+  buildInfo:
+    name: "fruit-backend-sb"
+    version: "1.0.0-SNAPSHOT"
+    packaging: "jar"
+    outputFile: "file:///home/lab-user/fruit-backend-sb/target/fruit-backend-sb-1.0.0-SNAPSHOT.jar"
+    classOutputDir: "file:///home/lab-user/fruit-backend-sb/target/classes/"
+    resourceDir: "file:///home/lab-user/fruit-backend-sb/target/classes/"
+  scmInfo:
+    root: "file:///home/lab-user/"
+    url: "https://github.com/222/111.git"
+    branch: "master"
+    commit: ""
+name: "fruit-backend-sb"
+deploymentMode: "dev"
+exposeService: true
+envs:
+- name: "SPRING_PROFILES_ACTIVE"
+  value: "kubernetes"
+  secret: ""
+  configmap: ""
+  field: ""
+buildType: "s2i"
+remote: "origin"

@@ -1,0 +1,48 @@
+---
+project:
+  root: "file:///home/lab-user/fruit-backend-sb/"
+  dekorateInputDir: null
+  dekorateOutputDir: "META-INF/dekorate"
+  buildInfo:
+    name: "fruit-backend-sb"
+    version: "1.0.0-SNAPSHOT"
+    packaging: "jar"
+    outputFile: "file:///home/lab-user/fruit-backend-sb/target/fruit-backend-sb-1.0.0-SNAPSHOT.jar"
+    classOutputDir: "file:///home/lab-user/fruit-backend-sb/target/classes/"
+    resourceDir: "file:///home/lab-user/fruit-backend-sb/target/classes/"
+  scmInfo:
+    root: "file:///home/lab-user/"
+    url: "https://github.com/222/111.git"
+    branch: "master"
+    commit: ""
+group: "lab-user"
+name: "fruit-backend-sb"
+version: "1.0.0-SNAPSHOT"
+workingDir: ""
+replicas: 1
+serviceAccount: ""
+host: ""
+ports:
+- name: "http"
+  containerPort: 8080
+  hostPort: 0
+  path: "/"
+  protocol: "TCP"
+serviceType: "ClusterIP"
+imagePullPolicy: "IfNotPresent"
+livenessProbe:
+  httpActionPath: ""
+  execAction: ""
+  tcpSocketAction: ""
+  initialDelaySeconds: 0
+  periodSeconds: 30
+  timeoutSeconds: 10
+readinessProbe:
+  httpActionPath: ""
+  execAction: ""
+  tcpSocketAction: ""
+  initialDelaySeconds: 0
+  periodSeconds: 30
+  timeoutSeconds: 10
+expose: false
+autoDeployEnabled: false

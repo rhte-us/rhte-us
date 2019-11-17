@@ -1,0 +1,16 @@
+---
+root: "file:///home/lab-user/fruit-client-sb/"
+dekorateInputDir: null
+dekorateOutputDir: "META-INF/dekorate"
+buildInfo:
+  name: "fruit-client-sb"
+  version: "1.0.0-SNAPSHOT"
+  packaging: "jar"
+  outputFile: "file:///home/lab-user/fruit-client-sb/target/fruit-client-sb-1.0.0-SNAPSHOT.jar"
+  classOutputDir: "file:///home/lab-user/fruit-client-sb/target/classes/"
+  resourceDir: "file:///home/lab-user/fruit-client-sb/target/classes/"
+scmInfo:
+  root: "file:///home/lab-user/"
+  url: "https://github.com/222/111.git"
+  branch: "master"
+  commit: ""

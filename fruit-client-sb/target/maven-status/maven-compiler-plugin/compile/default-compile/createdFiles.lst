@@ -1,0 +1,11 @@
+META-INF/dekorate/.config/link.yml
+me/fruitstand/demo/service/ClientController.class
+META-INF/dekorate/.config/base.yml
+META-INF/dekorate/.config/capability.yml
+META-INF/dekorate/halkyon.json
+META-INF/dekorate/.config/springapplication.yml
+META-INF/dekorate/.project.yml
+META-INF/dekorate/.config/component.yml
+me/fruitstand/demo/service/Fruit.class
+me/fruitstand/demo/Application.class
+META-INF/dekorate/halkyon.yml

@@ -1,0 +1,25 @@
+---
+apiVersion: "v1"
+kind: "List"
+items:
+- apiVersion: "halkyon.io/v1beta1"
+  kind: "Component"
+  metadata:
+    labels:
+      app: "fruit-backend-sb"
+    name: "fruit-backend-sb"
+  spec:
+    deploymentMode: "dev"
+    runtime: "spring-boot"
+    version: "2.1.6.RELEASE"
+    exposeService: true
+    envs:
+    - name: "SPRING_PROFILES_ACTIVE"
+      value: "kubernetes"
+    buildConfig:
+      type: "s2i"
+      url: "https://github.com/222/111.git"
+      ref: "master"
+      contextPath: ""
+      moduleDirName: "fruit-backend-sb"
+    port: 8080

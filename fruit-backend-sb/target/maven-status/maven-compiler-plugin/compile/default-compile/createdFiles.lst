@@ -1,0 +1,15 @@
+me/fruitstand/demo/exception/NotFoundException.class
+me/fruitstand/demo/CrudApplication.class
+me/fruitstand/demo/exception/UnsupportedMediaTypeException.class
+META-INF/dekorate/.config/link.yml
+META-INF/dekorate/.config/base.yml
+META-INF/dekorate/.config/capability.yml
+META-INF/dekorate/halkyon.json
+me/fruitstand/demo/exception/UnprocessableEntityException.class
+META-INF/dekorate/.config/springapplication.yml
+META-INF/dekorate/.project.yml
+META-INF/dekorate/.config/component.yml
+me/fruitstand/demo/service/FruitController.class
+me/fruitstand/demo/service/Fruit.class
+me/fruitstand/demo/service/FruitRepository.class
+META-INF/dekorate/halkyon.yml
